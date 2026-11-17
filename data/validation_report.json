@@ -1,0 +1,42 @@
+{
+  "seed": 92026,
+  "unique_platform_events": 1000,
+  "platform_rows": 1006,
+  "unique_bank_batches": 471,
+  "bank_rows": 477,
+  "anomaly_counts": {
+    "rounding": 8,
+    "prior_month_inflow": 17,
+    "next_month_settlement": 19,
+    "orphan_refund": 8,
+    "duplicate_platform": 6,
+    "duplicate_bank": 6
+  },
+  "currency_gap_bridge": [
+    {
+      "currency": "INR",
+      "october_platform_net": "9257293.42",
+      "october_bank_cash": "8683396.83",
+      "raw_gap": "573896.59",
+      "explained_gap": "573896.59",
+      "unexplained_gap": "0.00"
+    },
+    {
+      "currency": "USD",
+      "october_platform_net": "93791.52",
+      "october_bank_cash": "98925.03",
+      "raw_gap": "-5133.51",
+      "explained_gap": "-5133.51",
+      "unexplained_gap": "0.00"
+    },
+    {
+      "currency": "EUR",
+      "october_platform_net": "81324.00",
+      "october_bank_cash": "78132.17",
+      "raw_gap": "3191.83",
+      "explained_gap": "3191.83",
+      "unexplained_gap": "0.00"
+    }
+  ],
+  "validation": "PASSED: row counts, workbook reload, batch currency/merchant isolation, settlement lags, orphan count, planted rounding count, and exact Decimal gap bridges."
+}

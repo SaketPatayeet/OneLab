@@ -1,0 +1,9 @@
+﻿# Deploy this directory as the repository root using Render Blueprints.
+services:
+  - type: web
+    name: ledgerlens-onelab
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health

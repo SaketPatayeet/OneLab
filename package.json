@@ -1,0 +1,23 @@
+{
+  "name": "onelab-reconciliation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config frontend/vite.config.js",
+    "build": "vite build --config frontend/vite.config.js",
+    "test": "python -m unittest discover -s tests -v",
+    "format": "prettier --write frontend package.json",
+    "format:check": "prettier --check frontend package.json"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "prettier": "^3.10.1",
+    "vite": "^6.0.0"
+  }
+}
